@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "supervto",
+    "password": "keren",
+    "database": "tugas4_development",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "supervot",
+    "password": "keren",
+    "database": "tugas4_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "supervto",
+    "password": "keren",
+    "database": "tugas4_production",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

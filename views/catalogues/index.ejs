@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Catalogues | All</title>
+  </head>
+  <body>
+    <a href="/catalogues/create">Buat artikel baru</a>
+    <br />
+    <br />
+
+    <% catalogues.forEach(i => { %>
+    <div>
+      <h1><%= i.title %></h1>
+      <p><%= i.body %></p>
+      <a href="/catalogues/<%= i.id %>">Baca lebih lanjut!</a>
+    </div>
+    <% }) %>
+  </body>
+</html>
